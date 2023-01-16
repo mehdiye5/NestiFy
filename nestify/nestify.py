@@ -30,7 +30,7 @@ class TokenRow:
         
     def AddChild(self, child):
         """
-        Function adds a child to the nested set tree
+        Function adds a child to the nested set tree as the last leaf
         """
         if type(child) != TokenRow:
             raise TypeError('Child Must Be TokeRow Type')
@@ -50,7 +50,7 @@ class TokenRow:
     
     def addChild(self, child):
         """
-        Function adds a child to the parent node
+        Function adds a child to the parent node as the first child
         """
         self.children.insert(0, child)
     
