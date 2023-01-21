@@ -1,7 +1,7 @@
 name: nestify tests
 on: [pull_request]
 jobs:
-  regressio-tests:
+  nestify-tests:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
