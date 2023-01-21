@@ -9,7 +9,7 @@ Pytest:
 '''
 
 class Test_TokenRow_Class:
-    def test_AddChild():
+    def test_AddChild(self):
         """
         function tests the add child function
         """
