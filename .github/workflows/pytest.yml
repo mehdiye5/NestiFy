@@ -1,4 +1,4 @@
-name: regressio tests
+name: nestify tests
 on: [pull_request]
 jobs:
   regressio-tests:
