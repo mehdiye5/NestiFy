@@ -1,6 +1,7 @@
 import pytest
 import numpy as np
 from nestify.nestify import TokenRow
+import sys
 
 '''
 Pytest:
