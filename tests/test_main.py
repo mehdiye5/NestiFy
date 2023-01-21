@@ -11,7 +11,7 @@ Pytest:
 class Test_TokenRow_Class:
     def test_AddChild(self):
         """
-        function tests the add child function
+        function tests the add child functions
         """
         with pytest.raises(TypeError):
             dummyRoot = TokenRow(-1, "", -1, sys.maxsize)
